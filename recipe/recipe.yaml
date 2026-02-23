@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "1.16.1"
+  version: "1.16.2"
 
 package:
   name: mediamtx
@@ -10,7 +10,7 @@ package:
 
 source:
   - url: https://github.com/bluenviron/mediamtx/archive/refs/tags/v${{ version }}.tar.gz
-    sha256: e60658a4f2e3560233daf6013666df77c285e5c21367093f0f4ff95c03ac503d
+    sha256: 12a717a3b09d07c1befd93b58cdbb1432e619f4ad0e9c2f3b54700d68fb9a427
     target_directory: src
   - path: service.yaml
     target_directory: service-config
